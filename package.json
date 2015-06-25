@@ -1,0 +1,12 @@
+{
+  "name": "Calculator Service",
+  "version": "1.0.0",
+  "description": "A simple calculator that accepts text input (e.g one, three) and does simple calculations",
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "author": "Salam AlYahya"
+}
