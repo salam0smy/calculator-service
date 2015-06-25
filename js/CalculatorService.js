@@ -37,10 +37,7 @@ function CalculatorService() {
 
 	// Returns true if it is a valid operation
 	var isOperation = function(oper) {
-		if (operations[oper] == 1) {
-			return true;
-		};
-		return false;
+		return operations[oper] == 1;
 	};
 
 	var isOperationEntered = function() {
